@@ -41,5 +41,6 @@ int main (){
     scanf("%d", &v[i]);
     }
     func (v, n);
+    free (v);
     return 0;
 }
