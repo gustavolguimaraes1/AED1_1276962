@@ -3,7 +3,7 @@ Disciplina  : Algoritmo e Estrutura de Dados 2026S1
 Nome        : Gustavo Lima Guimarães
 Linguagem   : C
 Problema    : https://judge.beecrowd.com/pt/problems/view/1080
-Data        : 20/08/2026
+Data        : 27/08/2026
 Objetivo    : Leia 100 valores inteiros. Apresente então o maior valor lido e a posição dentre os 100 valores lidos com alocação dinâmica de vetores.
 Dificuldade : Passar para a função o vetor.
 Uso de IA   : Não usei.
