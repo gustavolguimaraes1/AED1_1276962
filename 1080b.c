@@ -26,18 +26,16 @@ void func (int *v, int n){
 
 int main (){
     int *v;
-    printf ("Digite o tamanho : ");
-    int n, i;
-    scanf ("%d", &n);
+    int i;
     // Aqui vou selecionar espaço da memoria para poder caber o vetor
-    v = (int * ) malloc(n * sizeof(int));
+    v = (int * ) malloc(100 * sizeof(int));
     // verificar se o espaço que eu reservei está vazio 
     if (v == NULL){
         printf ("Erro de alocação\n");
         return 1;
     }
     printf ("Digite os valores : ");
-    for (int i = 0; i < n; i++) {
+    for (int i = 0; i < 100; i++) {
     scanf("%d", &v[i]);
     }
     func (v, n);
